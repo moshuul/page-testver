@@ -171,7 +171,6 @@ body {
     min-height: 420px;
 }
 
-/* 左页画布容器（你可以往里插 canvas） */
 .canvas-host {
     position: absolute;
     inset: 24px;
@@ -337,7 +336,7 @@ body {
   width:75px;
   background-repeat:repeat-y;
   background-position:center;
-  background-size:75px 1000px;  // 固定切片高
+  background-size:75px 1000px;  
   filter:none;
 }
 .crease.layer-one{ z-index:105; mix-blend-mode:multiply; opacity:.85; background-color:#fff; }
